@@ -33,7 +33,7 @@ This repository hosts a **Campus Placement Predictor** built with **Streamlit**,
   - SSC, HSC, Degree %, MBA %
 - 📊 Displays probability of placement
 - 🧠 Random Forest Classifier trained on real-world campus data
-- 🌐 Fully deployed on local Flask server
+- 🌐 Fully deployed on Streamlit Cloud.
 
 ---
 
