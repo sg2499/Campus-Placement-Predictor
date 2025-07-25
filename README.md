@@ -5,7 +5,7 @@
 ![Last Commit](https://img.shields.io/github/last-commit/sg2499/Campus-Placement-Predictor)
 ![Built with Flask](https://img.shields.io/badge/Built%20With-Flask-blue)
 
-This repository hosts a **Campus Placement Predictor** built with **Flask**, **Pandas**, and **Scikit-learn**. It predicts whether a student is likely to be placed based on academic and profile parameters. The project also includes a **Jupyter Notebook** that explains data preprocessing, EDA, model training, and evaluation.
+This repository hosts a **Campus Placement Predictor** built with **Streamlit**, **Pandas**, and **Scikit-learn**. It predicts whether a student is likely to be placed based on academic and profile parameters. The project also includes a **Jupyter Notebook** that explains data preprocessing, EDA, model training, and evaluation.
 
 ---
 
@@ -13,18 +13,12 @@ This repository hosts a **Campus Placement Predictor** built with **Flask**, **P
 
 ```
 📦Campus-Placement-Predictor/
-├── app.py                                # Flask web app
+├── new-app.py                            # Streamlit web app
 ├── CPP.pkl                               # Trained Random Forest model
 ├── Placement_Data_Full_Class.csv         # Dataset used for training
 ├── Campus Placement Predictor.ipynb      # Notebook with full ML pipeline
 ├── requirements.txt                      # Python dependencies
-├── templates/
-│   ├── index.html                        # Homepage form for input
-│   └── show.html                         # Output/result page
-├── static/
-│   └── style.css                         # (Optional) Custom styles
-├── CPP_SS_1.png                          # Screenshot: Input form
-├── CPP_SS_2.png                          # Screenshot: Prediction result
+├── CPP App.png                           # Screenshot of the UI
 └── README.md                             # Project documentation
 ```
 
@@ -87,10 +81,10 @@ conda activate cpp_env
 pip install -r requirements.txt
 ```
 
-### ▶️ Run the Flask App
+### ▶️ Run the Streamlit App
 
 ```bash
-python app.py
+streamlit run new_app.py
 ```
 
 App will run locally at:  
@@ -98,13 +92,9 @@ App will run locally at:
 
 ---
 
-## 📸 UI Screenshots
+## 📸 UI Screenshot
 
-#### 🟢 Home Page – Input Form
-<img src="CPP_SS_1.png" width="100%" alt="Campus Placement Prediction Form UI"/>
-
-#### 🟢 Result Page – Placement Prediction
-<img src="CPP_SS_2.png" width="100%" alt="Campus Placement Result Page"/>
+<img src="CPP App.png" width="100%" alt="Campus Placement Prediction Form UI"/>
 
 ---
 
@@ -121,14 +111,10 @@ App will run locally at:
 ## 🧪 Dependencies
 
 ```txt
-Flask==1.1.1
-gunicorn==19.9.0
-Jinja2==2.11.3
+streamlit
 numpy>=1.9.2
 pandas>=0.19
 scikit-learn>=0.18
-matplotlib>=1.4.3
-seaborn>=0.9.1
 ```
 
 > 📦 Full list in [`requirements.txt`](requirements.txt)
