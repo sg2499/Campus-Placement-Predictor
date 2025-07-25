@@ -121,6 +121,13 @@ scikit-learn>=0.18
 
 ---
 
+## 🌐 Live Demo
+You're welcome to explore the app by visiting the link provided below.
+
+👉 [Try Yourself](https://campus-placement-predictor-ktf7emqi8b6xzqbcezytzc.streamlit.app/)
+
+---
+
 ## ✍️ Author
 
 Created with ❤️ by **Shailesh Gupta**  
