@@ -1,4 +1,4 @@
-# 🎓 Campus Placement Predictor using Flask & Machine Learning
+# 🎓 Campus Placement Predictor using Streamlit & Machine Learning
 
 ![GitHub repo size](https://img.shields.io/github/repo-size/sg2499/Campus-Placement-Predictor)
 ![GitHub stars](https://img.shields.io/github/stars/sg2499/Campus-Placement-Predictor?style=social)
